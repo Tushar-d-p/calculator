@@ -1,0 +1,61 @@
+.outerbox{
+    width: 25vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+input, button{
+    height: 5vh;
+    font-size: 1rem;
+}
+
+button{
+    background-color: lightsteelblue;
+    border: 1px solid cadetblue;
+}
+
+.innerbox{
+    display: flex;
+    flex-direction: row;
+}
+.leftside{
+    width: 25vw;
+    height: 36vh;
+    /* border: 0.5px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: chocolate;
+
+}
+
+.numbers{
+    width: 6vw;
+    height: 11.7vh;
+    border: 0.5px solid blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:cornflowerblue;
+    color: whitesmoke;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.operators{
+    width: 6vw;
+    height: 6.9vh;
+    border: 0.5px solid blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:cornflowerblue;
+    color: whitesmoke;
+    font-size: 3rem;
+    cursor: pointer;
+}
